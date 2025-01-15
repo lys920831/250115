@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+header {
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 155px;
+    height: 60px;
+    float: left;
+    margin: 30px 30px;
+}
+
+#logo > a > img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+#login {
+    width: 1300px;
+    height: 30px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+#login ul {
+    font-size: 14px;
+    color: white;
+    float: right;
+    margin: 5px;
+}
+
+#login li {
+    float: left;
+    margin: 0 5px;
+}
+
+#login li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 900px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+
+nav>ul {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+nav>ul>li {
+    float: left;
+    margin: 20px 50px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav>ul>li>a:hover {
+    color: green;
+}
+
+footer {
+    width: 1300px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer>ul {
+    width: 750px;
+    height: 50px;
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+}
+
+#footer>ul>li {
+    float: left;
+    font-size: 18px;
+    margin: 5px 10px;
+}
+
+#footer>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer>p {
+    float: left;
+    width: 750px;
+    height: 50px;
+    margin: 40px 0 0 180px;
+    font-size: 18px;
+    color: #666;
+}
